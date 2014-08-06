@@ -1,7 +1,7 @@
 {
-	"name": "grid-section",
-	"description": "Simple grid layout for a collection of elements.",
-	"keywords": "content",
+  "name": "grid-section",
+  "description": "Simple grid layout for a collection of elements.",
+  "keywords": "content",
   "template": {
     "@type": "Thing",
     "name": "Grid Section",
@@ -18,5 +18,8 @@
     "childBlocks": {
       "Article": "article-single"
     }
+  },
+  "dependencies": {
+    "article-single": "^0.0.0"
   }
 }
